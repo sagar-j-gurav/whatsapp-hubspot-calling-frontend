@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "whatsapp-calling-widget",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "installCommand": "npm install",
+  "env": {
+    "REACT_APP_API_URL": "https://5e2dbb428708.ngrok-free.app",
+    "REACT_APP_WEBSOCKET_URL": "https://5e2dbb428708.ngrok-free.app",
+    "REACT_APP_DEV_MODE": "false",
+    "REACT_APP_TWILIO_WHATSAPP_NUMBER": "whatsapp:+14155238886"
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
