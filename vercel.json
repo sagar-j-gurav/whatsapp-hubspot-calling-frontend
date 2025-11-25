@@ -6,12 +6,15 @@
   "framework": null,
   "installCommand": "npm install",
   "env": {
-    "REACT_APP_API_URL": "https://5e2dbb428708.ngrok-free.app",
-    "REACT_APP_WEBSOCKET_URL": "https://5e2dbb428708.ngrok-free.app",
+    "REACT_APP_API_URL": "https://call-uat.tgrnd.com",
+    "REACT_APP_WEBSOCKET_URL": "https://call-uat.tgrnd.com",
     "REACT_APP_DEV_MODE": "false",
-    "REACT_APP_TWILIO_WHATSAPP_NUMBER": "whatsapp:+14155238886"
+    "REACT_APP_TWILIO_WHATSAPP_NUMBER": "whatsapp:+447366331247"
   },
   "routes": [
+    {
+      "handle": "filesystem"
+    },
     {
       "src": "/(.*)",
       "dest": "/index.html"
