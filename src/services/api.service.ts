@@ -209,7 +209,7 @@ class ApiService {
   }
 
   /**
-   * Get the "from" number for WhatsApp calls
+   * Get th "from" number for WhatsApp calls
    * In production, this would come from environment or backend config
    */
   getFromNumber(): string {
